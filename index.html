@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+<div class="game-body">
+<!--Page Title-->
+    <header class="main-header">
+        <h1 class="header-line-one">Los Matadores del</h1>
+        <h1 class="header-line-two">piedra - papel - tijeras</h1>
+    </header>
+<!--Character Selection Section-->
+    <section class="game">
+        <div class="character-selector">
+             <div class="move">Elige Tu Matador :</div>
+             <div class="options">
+                <button class="rock">Rock</button>
+                <button class="paper">Paper</button>
+                <button class="scissor">Scissor</button>   
+            </div>
+        </div>
+<!--Final Result of game-->
+        <div class="result"></div>
+<!--Moves left before game ends-->
+        
+<!--Score-board section-->
+        <div class="score-board">
+            <div class="playerScore">
+                <h2>Player</h2>
+                <p class="p-count count">0</p>
+ 
+            </div>      
+            <div class="computerScore">
+                <h2>Computer</h2>
+                <p class="c-count count">0</p>
+            </div>
+        </div>
+
+        <div class="moves-left">Moves Left: 10 </div>
+   <!--Reload the Game-->     
+        <div class="end-game">   
+                <button class="reload"></button>
+        </div>     
+
+
+    </section>
+    </div>
+    <script src="/app.js"></script>   
+</body>
+</html>

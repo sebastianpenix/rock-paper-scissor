@@ -1,0 +1,102 @@
+body{
+    box-sizing: border-box;
+    background: #AD1519;
+    font-family: URW Chancery L, cursive;
+}
+
+.main-header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
+
+.main-header{
+    font-size: 3vh;
+    font-size: 3vw;
+    text-transform: lowercase;
+    color: #FABD00;
+    font-weight: bolder;
+}
+
+.character-selector{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    font-size: 2vh;
+    font-size: 3vw;
+    font-weight: bold;
+    padding: 50px;
+    color: white;
+}
+
+.rock, .paper, .scissor {
+  background-color: #FABD00;
+  border: white;
+  color: #AD1519;
+  padding: 15px 32px;
+  margin-top: 15px;
+  text-align: center;
+  text-decoration: none;  
+  font-size: 2vh;
+  font-size: 3vw;
+  border-radius: 10px;
+  font-family: URW Chancery L, cursive;
+}
+
+.rock:hover, .paper:hover, .scissor:hover{
+    background-color: darkgoldenrod;
+    box-shadow: white;
+}
+
+.score-board{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    font-size: 2vh;
+    font-size: 3vw;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.playerScore, .computerScore{
+    padding: 0px 30px;  
+}
+
+
+.moves-left{
+    text-align: center;
+    color: white;
+    font-size: 1.5vh;
+    font-size: 1.5vw;
+}
+
+.result{
+    text-align: center;
+    color: white;
+    font-size: 2vh;
+    font-size: 3vw;
+}
+
+.reload{
+    background-color: #FABD00;
+    border: white;
+    color: #AD1519;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: none;  
+    font-size: 2vh;
+    font-size: 3vw;
+    border-radius: 10px;
+    font-family: URW Chancery L, cursive;
+  }
+
+  .end-game{
+    display: flex;
+    justify-content: center;
+  }
